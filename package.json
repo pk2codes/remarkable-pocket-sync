@@ -1,0 +1,58 @@
+{
+  "name": "remarkable-pocket-sync",
+  "version": "1.0.0",
+  "description": "A web app helping you sync your remarkable tablet with your pocket bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --config ./webpack.config.js --mode development",
+    "test": "run test",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk2codes/remarkable-pocket-sync.git"
+  },
+  "keywords": [
+    "remarkable",
+    "tablet",
+    "pocket",
+    "sync",
+    "node",
+    "js",
+    "react"
+  ],
+  "author": "Patrick Welter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pk2codes/remarkable-pocket-sync/issues"
+  },
+  "homepage": "https://github.com/pk2codes/remarkable-pocket-sync#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react-hot-loader": "^4.3.3",
+    "redux-devtools-extension": "^2.13.5",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
